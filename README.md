@@ -1,39 +1,30 @@
 # Sliv Sanal Mikroskop Projesi
 
-Bu proje, gastrektomili iki hastanın H&E boyalı mikroskopi görüntülerini sanal mikroskop ortamında incelemenizi sağlar. Vaka görüntüleri OpenSeadragon kullanılarak web tabanlı bir görüntüleyici ile sunulmuştur.
+Gastrektomili iki hastanın H&E (Hematoksilin ve Eozin) boyalı mikroskopi resimleri. Bu projede, her iki vakaya ait sanal mikroskopi görüntülerini OpenSeadragon kullanarak sunmaktayız. 
+
+Bir vakada submukozal yağ doku artışı gözlemlenmiştir.
 
 Web sayfası olarak açın: https://metinciris.github.io/sliv/
 
-## İçerik
+## Sanal Mikroskopi Resimleri
 
-Bu projede iki farklı vaka yer almaktadır:
+### Vaka 1
+![Vaka 1](https://github.com/metinciris/sliv/blob/main/vaka1.JPG)
 
-1. **Vaka 1:**
-   - H&E mikroskopi görüntüsü.
-   - Submukozal yağ doku artışı mevcut.
-   - Görüntü dosyası: [vaka1.JPG](https://github.com/metinciris/sliv/blob/main/vaka1.JPG)
-   - Sanal mikroskop görüntüsü: [Vaka 1](https://github.com/metinciris/sliv/blob/main/vaka1/output.dzi)
+### Vaka 2
+![Vaka 2](https://github.com/metinciris/sliv/blob/main/vaka2.JPG)
 
-2. **Vaka 2:**
-   - H&E mikroskopi görüntüsü.
-   - Görüntü dosyası: [vaka2.JPG](https://github.com/metinciris/sliv/blob/main/vaka2.JPG)
-   - Sanal mikroskop görüntüsü: [Vaka 2](https://github.com/metinciris/sliv/blob/main/vaka2/output.dzi)
+## Notlar
 
-## Nasıl Kullanılır?
+- **Vaka 1 ve Vaka 2:** Yukarıda görülen resimler sanal mikroskopi uygulamamızdan alınmış fotoğraflardır.
+- **Sanal Mikroskop:** Resimleri detaylı incelemek için [sanal mikroskop](https://metinciris.github.io/sliv/) sayfamızı ziyaret edebilirsiniz.
 
-- Projeyi yerel makinenize klonlayın veya GitHub Pages üzerinden erişim sağlayın.
-- `index.html` dosyasını açarak sanal mikroskop üzerinden görüntüleri inceleyin.
-- Vaka görüntülerine ilgili butonlar aracılığıyla erişebilirsiniz.
+## Kurulum
 
-## Gereksinimler
+Bu projeyi yerel ortamınıza klonlayarak çalıştırabilirsiniz:
 
-- Web tarayıcısı (Chrome, Firefox, Safari, vb.)
-- OpenSeadragon destekli web ortamı.
+```bash
+git clone https://github.com/metinciris/sliv.git
 
-## Proje Hakkında
-
-Bu proje, patoloji eğitimi veya araştırmaları için kullanılabilecek sanal bir mikroskopi platformu sunar. Özellikle eğitimciler ve öğrenciler için pratik bir araç olarak tasarlanmıştır.
-
----
 
 Geri bildirimler ve katkılarınız için teşekkür ederiz!
